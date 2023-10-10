@@ -9,7 +9,8 @@
 
 
 ## Materials
-![material 1](https://github.com/Graham913/G-Hog-mapper-notebook/blob/main/images/material1.jpg)
+![IMG_4420](https://github.com/Graham913/G-Hog-mapper-notebook/assets/71406930/da64d690-ca3c-4c01-abbb-7f6f10f99153)
+
 
 
 
