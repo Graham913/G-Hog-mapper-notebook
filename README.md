@@ -1,9 +1,14 @@
 # G-Hog-mapper-notebook
 
+
+
+# Planning
+
+
 ## Initial brainstorming
 
 
-
+## Materials
 
 
 
