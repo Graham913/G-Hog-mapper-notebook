@@ -16,6 +16,13 @@
 
 
 
+# 11/2/23
+
+<img src="images/IMG_4552.jpg" width="300">
+
+Diagram drawn by Miller for utilizing the high torque motors / H-bridge (DRV8833)
+
+
 
 
 
