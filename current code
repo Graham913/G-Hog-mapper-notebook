@@ -1,0 +1,96 @@
+
+# SPDX-FileCopyrightText: 2018 Kattni Rembor for Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
+
+"""CircuitPython Essentials HID Mouse example"""
+import time
+import analogio
+import board
+import digitalio
+import usb_hid
+from time import sleep
+from digitalio import DigitalInOut, Direction, Pull
+from pwmio import PWMOut
+from adafruit_motor import motor as Motor
+
+
+DEBUG = True  # mode of operation; False = normal, True = debug
+drv8833_ain1 = PWMOut(board.GP17, frequency=50)
+drv8833_ain2 = PWMOut(board.GP16, frequency=50)
+drv8833_bin1 = PWMOut(board.GP18, frequency=50)
+drv8833_bin2 = PWMOut(board.GP19, frequency=50)
+drv8833_sleep = DigitalInOut(board.GP20)
+motor_a = Motor.DCMotor(drv8833_ain1, drv8833_ain2)
+motor_b = Motor.DCMotor(drv8833_bin1, drv8833_bin2)
+
+
+
+x_axis = analogio.AnalogIn(board.GP27)
+y_axis = analogio.AnalogIn(board.GP26)
+select = digitalio.DigitalInOut(board.A2)
+select.direction = digitalio.Direction.INPUT
+select.pull = digitalio.Pull.UP
+
+pot_min = 0.00
+pot_max = 3.29
+step = (pot_max - pot_min) / 20.0
+
+
+def get_voltage(pin):
+    return (pin.value * 3.3) / 65536
+
+
+def steps(axis):
+    """ Maps the potentiometer voltage range to 0-20 """
+    return round((axis - pot_min) / step)
+
+
+
+def print_motor_status(motor):
+    if motor == motor_a:
+        motor_name = "A"
+    elif motor == motor_b:
+        motor_name = "B"
+    else:
+        motor_name = "Unknown"
+    print(f"Motor {motor_name} throttle is set to {motor.throttle}.")
+def basic_operations():
+    # Drive forward at full throttle
+    motor_a.throttle = 1.0
+    motor_b.throttle = 1.0
+
+
+
+while True:
+    x = get_voltage(x_axis)
+    y = get_voltage(y_axis)
+
+    if select.value is False:
+        time.sleep(0.2)  # Debounce delay
+
+
+    if steps(x) > 19.0 and steps(y) < 15 :
+         print(f" X: {steps(x)}")
+         motor_a.throttle = 1.0
+         motor_b.throttle = -1.0
+    if steps(x) < 1.0:
+         print(f" X: {steps(x)}")
+         motor_a.throttle = 0
+         motor_b.throttle = 0
+
+    if steps(y) > 11.0:
+         print(f" Y: {steps(y)}")
+
+    if steps(y) < 9.0:
+         print(f" Y: {steps(y)}")
+
+
+    if steps(y) > 19.0 and steps(x) < 15:
+         print(f" Y: {steps(y)}")
+         motor_a.throttle = 1.0
+         motor_b.throttle = 1.0
+    if steps(y) < 1.0:
+         print(f" Y: {steps(y)}")
+         motor_a.throttle = 0
+         motor_b.throttle = 0
