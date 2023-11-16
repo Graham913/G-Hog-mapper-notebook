@@ -69,28 +69,22 @@ while True:
     if select.value is False:
         time.sleep(0.2)  # Debounce delay
 
-
-    if steps(x) > 19.0 and steps(y) < 15 :
-         print(f" X: {steps(x)}")
-         motor_a.throttle = 1.0
-         motor_b.throttle = -1.0
-    if steps(x) < 1.0:
-         print(f" X: {steps(x)}")
-         motor_a.throttle = 0
-         motor_b.throttle = 0
-
-    if steps(y) > 11.0:
-         print(f" Y: {steps(y)}")
-
-    if steps(y) < 9.0:
-         print(f" Y: {steps(y)}")
-
-
-    if steps(y) > 19.0 and steps(x) < 15:
+    if steps(y) > 19.0:
          print(f" Y: {steps(y)}")
          motor_a.throttle = 1.0
          motor_b.throttle = 1.0
-    if steps(y) < 1.0:
+
+    elif steps(y) < 1.0:
          print(f" Y: {steps(y)}")
-         motor_a.throttle = 0
-         motor_b.throttle = 0
+         motor_a.throttle = -1.0
+         motor_b.throttle = -1.0
+
+    elif steps(x) > 19.0:
+         print(f" X: {steps(x)}")
+         motor_a.throttle = 1.0
+         motor_b.throttle = -1.0
+         
+    elif steps(x) < 1.0:
+         print(f" X: {steps(x)}")
+         motor_a.throttle = -1.0
+         motor_b.throttle = 1.0
