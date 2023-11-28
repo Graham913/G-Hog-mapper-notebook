@@ -10,14 +10,14 @@
 
 ## Materials
 
-<img src="images/material1.jpg" width="300">
+<img src="images/MetalSheet.jpg" width="300">
 
-<img src="images/material2.jpg" width="300">
+<img src="images/WoodSheet.jpg" width="300">
 
 
 # 11/2/23
 
-<img src="images/IMG_4552.jpg" width="300">
+<img src="images/MotorDiagram.jpg" width="300">
 
 Diagram drawn by Miller for utilizing the high torque motors / H-bridge (DRV8833)
 
