@@ -23,7 +23,8 @@ drv8833_bin2 = PWMOut(board.GP19, frequency=50)
 drv8833_sleep = DigitalInOut(board.GP20)
 motor_a = Motor.DCMotor(drv8833_ain1, drv8833_ain2)
 motor_b = Motor.DCMotor(drv8833_bin1, drv8833_bin2)
-
+drv8833_sleep.direction = Direction.OUTPUT
+drv8833_sleep.value = True  # enable (turn on) the motor driver
 
 
 x_axis = analogio.AnalogIn(board.GP27)
@@ -47,14 +48,14 @@ def steps(axis):
 
 
 
-def print_motor_status(motor):
-    if motor == motor_a:
-        motor_name = "A"
-    elif motor == motor_b:
-        motor_name = "B"
-    else:
-        motor_name = "Unknown"
-    print(f"Motor {motor_name} throttle is set to {motor.throttle}.")
+# def print_motor_status(motor):
+#     if motor == motor_a:
+#         motor_name = "A"
+#     elif motor == motor_b:
+#         motor_name = "B"
+#     else:
+#         motor_name = "Unknown"
+#     print(f"Motor {motor_name} throttle is set to {motor.throttle}.")
 def basic_operations():
     # Drive forward at full throttle
     motor_a.throttle = 1.0
@@ -70,21 +71,29 @@ while True:
         time.sleep(0.2)  # Debounce delay
 
     if steps(y) > 19.0:
-         print(f" Y: {steps(y)}")
+         #print(f" Y: {steps(y)}") 
+         print("Forward")
          motor_a.throttle = 1.0
          motor_b.throttle = 1.0
 
     elif steps(y) < 1.0:
-         print(f" Y: {steps(y)}")
+         #print(f" Y: {steps(y)}")
+         print("Backward")
          motor_a.throttle = -1.0
          motor_b.throttle = -1.0
 
     elif steps(x) > 19.0:
-         print(f" X: {steps(x)}")
+         #print(f" X: {steps(x)}")
+         print("Turn left")
          motor_a.throttle = 1.0
          motor_b.throttle = -1.0
          
     elif steps(x) < 1.0:
-         print(f" X: {steps(x)}")
+         #print(f" X: {steps(x)}")
+         print("Turn right")
          motor_a.throttle = -1.0
          motor_b.throttle = 1.0
+    
+    else:
+         motor_a.throttle = 0.0
+         motor_b.throttle = 0.0
