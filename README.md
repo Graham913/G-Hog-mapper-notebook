@@ -44,3 +44,9 @@ Figuring out the method to indepentently move the motors.
 
 ### What is your plan for next week?
 The plan is to get the joysticks to move the motors.
+
+# 11/28/23
+
+### What did we accomplish?
+
+Code now allows for us to control the motors Forwards/Backwards and turning Left/Right.
