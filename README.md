@@ -50,3 +50,26 @@ The plan is to get the joysticks to move the motors.
 ### What did we accomplish?
 
 Code now allows for us to control the motors Forwards/Backwards and turning Left/Right.
+
+# 12/1/23 Review
+
+What did you work on?
+Code now allows for us to control the motors Forwards/Backwards and turning Left/Right using the joystick.
+
+What decisions were made?
+We have decided to use a LoRa board with an extra pico to be able to control the motors wirelessly.
+
+What new resources did you find?
+LoRa board, LCD screen.
+
+What new issues were discovered?
+How does a LoRa board work?
+
+What went well?
+Coding the joystick/motors together.
+
+What was difficult?
+Time.
+
+What is your plan for next week?
+Working on the LoRa board.
