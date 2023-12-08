@@ -22,7 +22,7 @@
 Diagram drawn by Miller for utilizing the high torque motors / H-bridge (DRV8833)
 
 
-# 11/9/23 
+# 11/9/23 Review
 
 ### What did you work on?
 Figured out code to move high-torque motors back and forth. Currently working on a method to move the motors independently of each other and the computer (Joystick, switch, etc.)
@@ -77,16 +77,22 @@ Working on the LoRa board.
 # 12/8/23 Review
 
 ### What did you work on?
+We researched the LoRa boards and brainstormed with our mentors on how to move forward with them.
 
 ### What decisions were made?
+We realized we cannot use LoRa to transmit video so it will have to be a wired connection. 
 
 ### What new resources did you find?
+We found the LoRa boards and wires online.
 
 ### What new issues were discovered?
+LoRa will not transmit video or anything that requires more than 50kb/s.
 
 ### What went well?
+Our in-person meeting with our mentors went well.
 
 ### What was difficult?
+Attempting to figure out how the LoRa boards work has been difficult. 
 
 ### What is your plan for next week?
-
+Get the Pico boards talking to each other via LoRa and do more research about how to efficiently connect the two with a wired connection.
