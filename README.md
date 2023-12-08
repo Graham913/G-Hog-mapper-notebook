@@ -73,3 +73,26 @@ Time.
 
 What is your plan for next week?
 Working on the LoRa board.
+
+# 12/8/23 Review
+
+What did you work on?
+
+
+What decisions were made?
+
+
+What new resources did you find?
+
+
+What new issues were discovered?
+
+
+What went well?
+
+
+What was difficult?
+
+
+What is your plan for next week?
+
