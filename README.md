@@ -53,46 +53,40 @@ Code now allows for us to control the motors Forwards/Backwards and turning Left
 
 # 12/1/23 Review
 
-What did you work on?
+### What did you work on?
 Code now allows for us to control the motors Forwards/Backwards and turning Left/Right using the joystick.
 
-What decisions were made?
+### What decisions were made?
 We have decided to use a LoRa board with an extra pico to be able to control the motors wirelessly.
 
-What new resources did you find?
+### What new resources did you find?
 LoRa board, LCD screen.
 
-What new issues were discovered?
+### What new issues were discovered?
 How does a LoRa board work?
 
-What went well?
+### What went well?
 Coding the joystick/motors together.
 
-What was difficult?
+### What was difficult?
 Time.
 
-What is your plan for next week?
+### What is your plan for next week?
 Working on the LoRa board.
 
 # 12/8/23 Review
 
-What did you work on?
+### What did you work on?
 
+### What decisions were made?
 
-What decisions were made?
+### What new resources did you find?
 
+### What new issues were discovered?
 
-What new resources did you find?
+### What went well?
 
+### What was difficult?
 
-What new issues were discovered?
-
-
-What went well?
-
-
-What was difficult?
-
-
-What is your plan for next week?
+### What is your plan for next week?
 
