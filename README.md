@@ -96,3 +96,26 @@ Attempting to figure out how the LoRa boards work has been difficult.
 
 ### What is your plan for next week?
 Get the Pico boards talking to each other via LoRa and do more research about how to efficiently connect the two with a wired connection.
+
+# 12/15/23 Review
+
+### What did you work on?
+We began to wire the LoRa boards and began writing code to make the boards talk to each other.
+
+### What decisions were made?
+We decided we will use treads to move the vehicle and have finalized the decision to wire the boards together.
+
+### What new resources did you find?
+Circuit python forums depicting code for the LoRa boards.
+
+### What new issues were discovered?
+The LoRa board is complicated and requires more time than expected to understand the intricacies. 
+
+### What went well?
+We established a clear path for completing the LoRa section of our project.
+
+### What was difficult?
+It was difficult attempting to connect the LoRa boards via code.
+
+### What is your plan for next week?
+Get the boards to talk to each other.
