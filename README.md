@@ -120,7 +120,3 @@ It was difficult attempting to connect the LoRa boards via code.
 ### What is your plan for next week?
 Get the boards to talk to each other.
 
-
-Camera Research 
-
-[learn.adafruit.com/ttl-serial-camera/overview](url)
