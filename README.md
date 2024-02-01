@@ -7,6 +7,7 @@
 
 ## Initial brainstorming
 
+https://learn.adafruit.com/ttl-serial-camera/overview
 
 ## Materials
 
