@@ -123,4 +123,4 @@ Get the boards to talk to each other.
 
 Camera Research 
 
-[https://learn.adafruit.com/ttl-serial-camera/overview](url)
+[learn.adafruit.com/ttl-serial-camera/overview](url)
