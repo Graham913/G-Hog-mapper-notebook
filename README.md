@@ -126,3 +126,5 @@ Get the boards to talk to each other.
 ### What we have worked on
 
 We have created the tank treads in onshape, as well as focused on wiring/coding the camera. 
+
+<img src="images/projectlayout.png" width="900">
