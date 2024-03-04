@@ -123,7 +123,10 @@ It was difficult attempting to connect the LoRa boards via code.
 ### What is your plan for next week?
 Get the boards to talk to each other.
 
-# February
+# 2/9/24
+# 2/16/24
+# 2/23/24
+# 2/29/24
 
 ### What we have worked on
 
