@@ -124,9 +124,20 @@ It was difficult attempting to connect the LoRa boards via code.
 Get the boards to talk to each other.
 
 # 2/9/24
+
+We started printing treads for the robot and researching the camera/LCD screen.
+
 # 2/16/24
+
+This week the French people were here in Charlottesville. We got minimal work done during this time.
+
 # 2/23/24
+
+Mentors came this week. We got feedback from several UVA students and finalized our idea to fully wire the robot. We also got started on wiring and coding the LCD screen and were directed to focus on that before the camera.
+
 # 2/29/24
+
+We got the LCD screen to turn on with basic code and continued to print treads and wheels for the robot.
 
 ### What we have worked on
 
