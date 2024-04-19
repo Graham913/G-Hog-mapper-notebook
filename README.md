@@ -146,3 +146,11 @@ We have created the tank treads in onshape, as well as focused on wiring/coding 
 <img src="images/projectlayout.png" width="900">
 
 Decided to scrap LoRa and just fully wire it. Wires shown on the diagram are an accurate estimation of how many we will truly need. However we are not 100% sure of how many the LCD screen will require.
+
+
+Updated wiring diagram concerning the joystick control
+
+<img src="images/wiringdiagramjoystick.png" width="900">
+
+
+
