@@ -18,6 +18,24 @@ https://learn.adafruit.com/adafruit-2-8-and-3-2-color-tft-touchscreen-breakout-v
 <img src="images/WoodSheet.jpg" width="300">
 
 
+# November
+
+# December
+
+# January 
+
+# February 
+
+# March
+
+# April
+
+# May
+
+
+
+
+
 # 11/2/23
 
 <img src="images/MotorDiagram.jpg" width="300">
