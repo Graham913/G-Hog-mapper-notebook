@@ -4,8 +4,9 @@
 
 # Planning
 
+Our initial idea is to create a remote-controlled robot that can direct live-video feed back to the controller. We want to drive this robot through the groundhog tunnels at CHS and explore the intriquite designs within. We plan to achieve this by controlling motors using a joystick, and some form of screen/camera to see video.  
 
-## Initial brainstorming
+## Initial brainstorming 
 
 https://learn.adafruit.com/ttl-serial-camera/overview
 
