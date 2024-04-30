@@ -35,6 +35,11 @@ Had to workshop the code using other code in order to be able to use the motors 
 
 # December
 
+We have decided to use a LoRa board with an extra pico to be able to control the motors wirelessly. We have no LoRa experience and may be difficult to pursue for our purpose
+
+We researched the LoRa boards and brainstormed with our mentors in-person on how to move forward in our project. We have realized that we cannot transmit video from one LoRa board to another, but we will still try to see if they are feasable to transmit the signal for the joystick/motors. 
+
+
 # January 
 
 # February 
@@ -45,51 +50,7 @@ Had to workshop the code using other code in order to be able to use the motors 
 
 # May
 
-# 12/1/23 Review
 
-### What did you work on?
-Code now allows for us to control the motors Forwards/Backwards and turning Left/Right using the joystick.
-
-### What decisions were made?
-We have decided to use a LoRa board with an extra pico to be able to control the motors wirelessly.
-
-### What new resources did you find?
-LoRa board, LCD screen.
-
-### What new issues were discovered?
-How does a LoRa board work?
-
-### What went well?
-Coding the joystick/motors together.
-
-### What was difficult?
-Time.
-
-### What is your plan for next week?
-Working on the LoRa board.
-
-# 12/8/23 Review
-
-### What did you work on?
-We researched the LoRa boards and brainstormed with our mentors on how to move forward with them.
-
-### What decisions were made?
-We realized we cannot use LoRa to transmit video so it will have to be a wired connection. 
-
-### What new resources did you find?
-We found the LoRa boards and wires online.
-
-### What new issues were discovered?
-LoRa will not transmit video or anything that requires more than 50kb/s.
-
-### What went well?
-Our in-person meeting with our mentors went well.
-
-### What was difficult?
-Attempting to figure out how the LoRa boards work has been difficult. 
-
-### What is your plan for next week?
-Get the Pico boards talking to each other via LoRa and do more research about how to efficiently connect the two with a wired connection.
 
 # 12/15/23 Review
 
