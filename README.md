@@ -31,6 +31,8 @@ Figured out code to move high-torque motors back and forth. Currently working on
 
 Had to workshop the code using other code in order to be able to use the motors to move back and forth / left and right.
 
+[Joystick Code](Code/joystick.py)
+
 # December
 
 # January 
