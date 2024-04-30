@@ -12,11 +12,13 @@ https://learn.adafruit.com/ttl-serial-camera/overview
 
 https://learn.adafruit.com/adafruit-2-8-and-3-2-color-tft-touchscreen-breakout-v2
 
+<img src="images/ChasisDrawing.PNG" width="300">
+
 ## Materials
 
-<img src="images/MetalSheet.jpg" width="300">
+<img src="images/MetalSheet.jpg" width="200">
 
-<img src="images/WoodSheet.jpg" width="300">
+<img src="images/WoodSheet.jpg" width="200">
 
 
 # November
