@@ -23,19 +23,21 @@ https://learn.adafruit.com/adafruit-2-8-and-3-2-color-tft-touchscreen-breakout-v
 
 # November
 
+### Diagram drawn by Miller for utilizing the high torque motors / H-bridge (DRV8833)
+
 <img src="images/MotorDiagram.jpg" width="300">
 
-Diagram drawn by Miller for utilizing the high torque motors / H-bridge (DRV8833)
-
-Figured out code to move high-torque motors back and forth. Currently working on a method to move the motors independently of each other and the computer (Joystick, switch, etc.)
-
-<img src="images/ezgif.com-crop.gif" width="200">
+### Figured out code to move high-torque motors back and forth. Currently working on a method to move the motors independently of each other and the computer (Joystick, switch, etc.)
 
 Had to workshop the code using other code in order to be able to use the motors to move back and forth / left and right.
 
+<img src="images/ezgif.com-crop.gif" width="200">
+
 [Joystick Code](Code/joystick.py)
 
-Wiring diagram for the joystick (Motor 1 is connected to AOUT 1 (power) and AOUT 2 (ground) / Motor 2 is connected to BOUT 1 (power) and BOUT 2 (ground)
+### Wiring diagram for the joystick 
+
+(Motor A is connected to AOUT 1 (power) and AOUT 2 (ground) / Motor B is connected to BOUT 1 (power) and BOUT 2 (ground)
 
 <img src="images/wiringdiagramjoystick.png" width="200">
 
