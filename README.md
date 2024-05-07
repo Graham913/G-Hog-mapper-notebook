@@ -39,7 +39,7 @@ Had to workshop the code using other code in order to be able to use the motors 
 
 (Motor A is connected to AOUT 1 (power) and AOUT 2 (ground) / Motor B is connected to BOUT 1 (power) and BOUT 2 (ground)
 
-<img src="images/wiringdiagramjoystick.png" width="200">
+<img src="images/wiringdiagramjoystick.png" width="400">
 
 # December
 
@@ -54,9 +54,18 @@ We researched the LoRa boards and brainstormed with our mentors in-person on how
 
 We made a lot of progress in terms of CAD, creating most of what we need for the final robot. 
 
-<img src="chasis.png" width="200">
 
-<img src="initial design treads.png" width="200">
+### Initial chasis base
+<img src="images/chasis.png" width="400">
+
+### Initial rough tread design
+<img src="images/initial design treads.png" width="400">
+
+### Singular tread
+<img src="images/singletread.png" width="400">
+
+### Tread wheel 
+<img src="images/treadwheels.png" width="400">
 
 # February 
 
