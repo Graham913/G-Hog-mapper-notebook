@@ -43,12 +43,16 @@ Had to workshop the code using other code in order to be able to use the motors 
 
 # December
 
-We have decided to use a LoRa board with an extra pico to be able to control the motors wirelessly. We have no LoRa experience and may be difficult to pursue for our purpose
+We have decided to use a LoRa board with an extra pico to be able to control the motors wirelessly. We also would like to connect the camera/screen wirelessly with the boards. We have no LoRa experience and may be difficult to pursue for our purpose
+
+We have began to write code for the LoRa boards and tried to make them talk to one another. 
 
 We researched the LoRa boards and brainstormed with our mentors in-person on how to move forward in our project. We have realized that we cannot transmit video from one LoRa board to another, but we will still try to see if they are feasable to transmit the signal for the joystick/motors. 
 
 
 # January 
+
+We 
 
 # February 
 
@@ -60,28 +64,6 @@ We researched the LoRa boards and brainstormed with our mentors in-person on how
 
 
 
-# 12/15/23 Review
-
-### What did you work on?
-We began to wire the LoRa boards and began writing code to make the boards talk to each other.
-
-### What decisions were made?
-We decided we will use treads to move the vehicle and have finalized the decision to wire the boards together.
-
-### What new resources did you find?
-Circuit python forums depicting code for the LoRa boards.
-
-### What new issues were discovered?
-The LoRa board is complicated and requires more time than expected to understand the intricacies. 
-
-### What went well?
-We established a clear path for completing the LoRa section of our project.
-
-### What was difficult?
-It was difficult attempting to connect the LoRa boards via code.
-
-### What is your plan for next week?
-Get the boards to talk to each other.
 
 # 2/9/24
 
