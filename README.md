@@ -52,7 +52,11 @@ We researched the LoRa boards and brainstormed with our mentors in-person on how
 
 # January 
 
-We 
+We made a lot of progress in terms of CAD, creating most of what we need for the final robot. 
+
+<img src="chasis.png" width="200">
+
+<img src="initial design treads.png" width="200">
 
 # February 
 
