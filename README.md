@@ -55,19 +55,34 @@ We researched the LoRa boards and brainstormed with our mentors in-person on how
 We made a lot of progress in terms of CAD, creating most of what we need for the final robot. 
 
 
-### Initial chasis base
+### Initial Chasis Base
 <img src="images/chasis.png" width="400">
 
-### Initial rough tread design
+### Initial Rough Tread Design
 <img src="images/initial design treads.png" width="400">
 
-### Singular tread
+### Singular Tread
 <img src="images/singletread.png" width="400">
 
-### Tread wheel 
+### Tread Wheel 
 <img src="images/treadwheels.png" width="400">
 
+### Bracket
+<img src="images/bracket.png" width="400">
+
+### Motor Bracket
+<img src="images/motorholder.png" width="400">
+
+### Tread Assembly
+<img src="images/treadassembly.png" width="400">
+
+### Rough Assembly
+<img src="images/roughassembly.png" width="400">
+
 # February 
+
+
+
 
 # March
 
@@ -77,8 +92,6 @@ We made a lot of progress in terms of CAD, creating most of what we need for the
 
 
 
-
-# 2/9/24
 
 We started printing treads for the robot and researching the camera/LCD screen.
 
