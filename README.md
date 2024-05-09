@@ -81,6 +81,9 @@ We made a lot of progress in terms of CAD, creating most of what we need for the
 
 # February 
 
+We started printing treads for the robot and researching the camera/LCD screen.
+
+This week the French people were here in Charlottesville. We got minimal work done during this time.
 
 
 
@@ -93,11 +96,9 @@ We made a lot of progress in terms of CAD, creating most of what we need for the
 
 
 
-We started printing treads for the robot and researching the camera/LCD screen.
 
 # 2/16/24
 
-This week the French people were here in Charlottesville. We got minimal work done during this time.
 
 # 2/23/24
 
