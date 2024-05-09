@@ -85,7 +85,15 @@ We started printing treads for the robot and researching the camera/LCD screen.
 
 This week the French people were here in Charlottesville. We got minimal work done during this time.
 
+<img src="images/IMG_5414.JPG" width="400">
 
+Mentors came this week. We got feedback from several UVA students and finalized our idea to fully wire the robot. We also got started on wiring and coding the LCD screen and were directed to focus on that before the camera.
+
+We got the LCD screen to turn on with basic code and continued to print treads and wheels for the robot.
+
+We have created the tank treads in onshape, as well as focused on wiring/coding the camera. 
+
+Decided to scrap LoRa and just fully wire it. Wires shown on the diagram are an accurate estimation of how many we will truly need. However we are not 100% sure of how many the LCD screen will require.
 
 # March
 
@@ -97,24 +105,6 @@ This week the French people were here in Charlottesville. We got minimal work do
 
 
 
-# 2/16/24
-
-
-# 2/23/24
-
-Mentors came this week. We got feedback from several UVA students and finalized our idea to fully wire the robot. We also got started on wiring and coding the LCD screen and were directed to focus on that before the camera.
-
-# 2/29/24
-
-We got the LCD screen to turn on with basic code and continued to print treads and wheels for the robot.
-
-### What we have worked on
-
-We have created the tank treads in onshape, as well as focused on wiring/coding the camera. 
-
-<img src="images/projectlayout.png" width="900">
-
-Decided to scrap LoRa and just fully wire it. Wires shown on the diagram are an accurate estimation of how many we will truly need. However we are not 100% sure of how many the LCD screen will require.
 
 
 # April
