@@ -58,7 +58,7 @@ We researched the LoRa boards and brainstormed with our mentors in-person on how
 We made a lot of progress in terms of CAD, creating most of what we need for the final robot. 
 
 
-### Initial Chasis Base - - - - - - - - - - - - - - - - - -Initial Rough Tread Design
+### Initial Chassis Base - - - - - - - - - - - - - - - - - -Initial Rough Tread Design
 <img src="images/chasis.png" width="400">                                  <img src="images/initial design treads.png" width="400">
 
 
@@ -104,24 +104,32 @@ Decided to scrap LoRa and just fully wire the robot. Wires shown on the diagram 
 
 ### Updated wiring diagram concerning the joystick control
 
-<img src="images/updatedwiringdiagramjoystick.png" width="400">
+<img src="images/updatedwiringdiagramjoystick.png" width="300">
 
 ### Graham has started to create the circuit board for the robot 
 
-<img src="images/IMG_5102.jpg" width="400">
+<img src="images/IMG_5102.jpg" width="300">
 
 ### Circuit board with battery and one of the motors attached to the laser-cut chassis
 
-<img src="images/IMG_5103.jpg" width="400">
+<img src="images/IMG_5103.jpg" width="300">
 
 
 # April
 
 Currently testing a different LCD screen that we found in the lab which acts as a shield on a metro express board, struggling to figure out the code. We have decided to forget about the LCD screen / Camera and complete the project as just a remote-controlled robot. 
 
+### Treads are fully printed and work with both motors to move the chassis in either direction and can rotate. 
+
+(insert video of the robot working with the treads on)
+
 # May
 
+### Graham's mom luckily found a cheap endoscope in the Amazon return bins, and by this luck, we can now use the robot with video feedback.
 
+(insert videos)
+
+After a close inspection of the endoscope, we determined that we could use a few of the remaining wires in the 50-foot cable, and splice some of the endoscope camera wires in order to extend its range. To our surprise, this was a success and the long distance of wire had little effect on video interference. Unfortunately, however, there was one wire too few to connect the camera's flashlight.
 
 
 
