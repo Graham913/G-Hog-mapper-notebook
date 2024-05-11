@@ -93,11 +93,26 @@ We got the LCD screen to turn on with basic code and continued to print treads a
 
 We have created the tank treads in onshape, as well as focused on wiring/coding the camera. 
 
-Decided to scrap LoRa and just fully wire it. Wires shown on the diagram are an accurate estimation of how many we will truly need. However we are not 100% sure of how many the LCD screen will require.
+Decided to scrap LoRa and just fully wire the robot. Wires shown on the diagram are an accurate estimation of how many we will truly need. However, we are not 100% sure of how many the LCD screen will require.
 
 # March
 
+Updated wiring diagram concerning the joystick control
+
+<img src="images/updatedwiringdiagramjoystick.png" width="400">
+
+Graham has started to create the circuit board for the robot 
+
+<img src="images/IMG5102.jpg" width="400">
+
+Circuit board with battery and one of the motors attatched to the laser-cut chassis
+
+<img src="images/IMG5103.jpg" width="400">
+
+
 # April
+
+Currently testing the LCD screen as a shield on a metro express board, struggling to figure out the code
 
 # May
 
@@ -105,16 +120,6 @@ Decided to scrap LoRa and just fully wire it. Wires shown on the diagram are an 
 
 
 
-
-
-# April
-
-Currently testing the LCD screen as a shield on a metro express board, struggling to figure out the code
-
-
-Updated wiring diagram concerning the joystick control
-
-<img src="images/wiringdiagramjoystick.png" width="900">
 
 
 
