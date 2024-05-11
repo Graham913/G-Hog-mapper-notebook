@@ -16,9 +16,7 @@ https://learn.adafruit.com/adafruit-2-8-and-3-2-color-tft-touchscreen-breakout-v
 
 ## Materials
 
-<img src="images/MetalSheet.jpg" width="200">
-
-<img src="images/WoodSheet.jpg" width="200">
+<img src="images/MetalSheet.jpg" width="200"> <img src="images/WoodSheet.jpg" width="200">
 
 
 # November
@@ -43,6 +41,11 @@ Had to workshop the code using other code in order to be able to use the motors 
 
 # December
 
+### We have found a camera in the lab and have ordered this LCD screen to hopefully pair the two (99% sure this is the right one)
+
+<img src="images/lcdscreen.png" width="400">
+
+
 We have decided to use a LoRa board with an extra pico to be able to control the motors wirelessly. We also would like to connect the camera/screen wirelessly with the boards. We have no LoRa experience and may be difficult to pursue for our purpose
 
 We have began to write code for the LoRa boards and tried to make them talk to one another. 
@@ -55,39 +58,41 @@ We researched the LoRa boards and brainstormed with our mentors in-person on how
 We made a lot of progress in terms of CAD, creating most of what we need for the final robot. 
 
 
-### Initial Chasis Base
-<img src="images/chasis.png" width="400">
+### Initial Chasis Base - - - - - - - - - - - - - - - - - -Initial Rough Tread Design
+<img src="images/chasis.png" width="400">                                  <img src="images/initial design treads.png" width="400">
 
-### Initial Rough Tread Design
-<img src="images/initial design treads.png" width="400">
 
-### Singular Tread
-<img src="images/singletread.png" width="400">
+### Singular Tread - - - - - - - - - - - - - - - - - - - -Tread Wheel 
+<img src="images/singletread.png" width="400"> <img src="images/treadwheels.png" width="330">
 
-### Tread Wheel 
-<img src="images/treadwheels.png" width="400">
 
-### Bracket
-<img src="images/bracket.png" width="400">
 
-### Motor Bracket
-<img src="images/motorholder.png" width="400">
 
-### Tread Assembly
-<img src="images/treadassembly.png" width="400">
+### Bracket - - - - - - - - - - - - - - - - - - - - - -Motor Bracket
+<img src="images/bracket.png" width="360"> <img src="images/motorholder.png" width="400">
 
-### Rough Assembly
-<img src="images/roughassembly.png" width="400">
+
+
+
+### Tread Assembly - - - - - - - - - - - - - - - - -Rough Assembly
+<img src="images/treadassembly.png" width="370"> <img src="images/roughassembly.png" width="450">
+
+
+
 
 # February 
 
 We started printing treads for the robot and researching the camera/LCD screen.
 
-This week the French people were here in Charlottesville. We got minimal work done during this time.
+### This week the French people were here in Charlottesville. We got minimal work done during this time.
 
 <img src="images/IMG_5414.JPG" width="400">
 
-Mentors came this week. We got feedback from several UVA students and finalized our idea to fully wire the robot. We also got started on wiring and coding the LCD screen and were directed to focus on that before the camera.
+Mentors came this week. We got feedback from several UVA students and finalized our idea to fully wire the robot. We also got started on wiring and coding the LCD screen and were directed to focus on that before the camera. 
+
+### We ordered 50 feet of wire in a cable that splits off into 8 different wires in order to allow us to use the robot at large distances. 
+
+<img src="images/50ftwire.png" width="400">
 
 We got the LCD screen to turn on with basic code and continued to print treads and wheels for the robot.
 
@@ -97,22 +102,22 @@ Decided to scrap LoRa and just fully wire the robot. Wires shown on the diagram 
 
 # March
 
-Updated wiring diagram concerning the joystick control
+### Updated wiring diagram concerning the joystick control
 
 <img src="images/updatedwiringdiagramjoystick.png" width="400">
 
-Graham has started to create the circuit board for the robot 
+### Graham has started to create the circuit board for the robot 
 
-<img src="images/IMG5102.jpg" width="400">
+<img src="images/IMG_5102.jpg" width="400">
 
-Circuit board with battery and one of the motors attatched to the laser-cut chassis
+### Circuit board with battery and one of the motors attached to the laser-cut chassis
 
-<img src="images/IMG5103.jpg" width="400">
+<img src="images/IMG_5103.jpg" width="400">
 
 
 # April
 
-Currently testing the LCD screen as a shield on a metro express board, struggling to figure out the code
+Currently testing a different LCD screen that we found in the lab which acts as a shield on a metro express board, struggling to figure out the code. We have decided to forget about the LCD screen / Camera and complete the project as just a remote-controlled robot. 
 
 # May
 
