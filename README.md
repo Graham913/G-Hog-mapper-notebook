@@ -127,7 +127,7 @@ Currently testing a different LCD screen that we found in the lab which acts as 
 
 ### Graham's mom luckily found a cheap endoscope in the Amazon return bins, and by this luck, we can now use the robot with video feedback.
 
-(insert videos)
+<img src="images/IMG_5914-ezgif.com-crop.gif" width="400">
 
 After a close inspection of the endoscope, we determined that we could use a few of the remaining wires in the 50-foot cable, and splice some of the endoscope camera wires in order to extend its range. To our surprise, this was a success and the long distance of wire had little effect on video interference. Unfortunately, however, there was one wire too few to connect the camera's flashlight.
 
