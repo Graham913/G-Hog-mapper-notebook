@@ -121,7 +121,7 @@ Currently testing a different LCD screen that we found in the lab which acts as 
 
 ### Treads are fully printed and work with both motors to move the chassis in either direction and can rotate. 
 
-(insert video of the robot working with the treads on)
+The robot is fully functional now, minus the camera
 
 # May
 
@@ -131,7 +131,9 @@ Currently testing a different LCD screen that we found in the lab which acts as 
 
 After a close inspection of the endoscope, we determined that we could use a few of the remaining wires in the 50-foot cable, and splice some of the endoscope camera wires in order to extend its range. To our surprise, this was a success and the long distance of wire had little effect on video interference. Unfortunately, however, there was one wire too few to connect the camera's flashlight.
 
+### Video of our final robot, moving both directions with the camera attatched 
 
+<img src="images/ezgif.com-optimize.gif" width="400">
 
 
 
