@@ -29,6 +29,7 @@ https://learn.adafruit.com/adafruit-2-8-and-3-2-color-tft-touchscreen-breakout-v
 
 Had to workshop the code using other code in order to be able to use the motors to move back and forth / left and right.
 
+Here we have the motors moving with example papers wheels.
 <img src="images/ezgif.com-crop.gif" width="200">
 
 [Joystick Code](Code/joystick.py)
