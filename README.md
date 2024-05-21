@@ -12,9 +12,9 @@ We wish to alleviate these issues and gather more information about the groundho
 
 ## Planning
 
-Our initial idea is to create a remote-controlled robot that can direct live-video feed back to the controller. We want to drive this robot through the groundhog tunnels at CHS and explore the intriquite designs within. We plan to achieve this by controlling motors using a joystick, and some form of screen/camera to see video.  
+Our initial idea is to create a remote-controlled robot that can direct live-video feedback to the controller. We want to drive this robot through the groundhog tunnels at CHS and explore the intricate designs within. We plan to achieve this by controlling motors using a joystick, and some form of screen/camera to see video.  
 
-Our end goal is to get video inside of the tunnels, but really just create a robot that we can cotrol and will give us live video feed. Our success will be measured by whether or not we can accomplish this goal.
+Our end goal is to get video inside of the tunnels, but really just create a robot that we can control and will give us a live video feed. Our success will be measured by whether or not we can accomplish this goal.
 
 ## Initial brainstorming 
 
@@ -34,19 +34,19 @@ The metal may be more durable but harder to cut and manipulate. And vice versa f
 
 # November
 
-### Diagram drawn by Miller for utilizing the high torque motors / H-bridge (DRV8833)
-This diagram shows us how to wire the 2 potential motors we may utilize and it assists us in coding the motors. Motor "A" will connect its power into AOUT1 and ground into AOUT2. Motor "B" will connect its power into BOUT1 and ground into BOUT2. A 9 volt battery will be used to connect into the power/ground slots on the H bridge. AIN1/AIN2 connect the H bridge to GP pins on the pico for Motor A, and BIN1/BIN2 will do the same for Motor B.
+### Diagram is drawn by Miller for utilizing the high torque motors / H-bridge (DRV8833)
+This diagram shows us how to wire the 2 potential motors we may utilize and it assists us in coding the motors. Motor "A" will connect its power into AOUT1 and ground into AOUT2. Motor "B" will connect its power into BOUT1 and ground into BOUT2. A 9-volt battery will be used to connect to the power/ground slots on the H bridge. AIN1/AIN2 connect the H bridge to GP pins on the pico for Motor A, and BIN1/BIN2 will do the same for Motor B.
 
 <img src="images/MotorDiagram.jpg" width="300">
 
 ### Figured out code to move high-torque motors back and forth. 
 Currently working on a method to move the motors independently of each other and the computer (Joystick, switch, etc.) We had to workshop the example code we found online using other code in order to be able to use the motors to move back and forth / left and right. We used inspiration from Malachi's old robot arm project with Mariam, where potentiometers were used for stepper motors. 
 
-The robot moves forward when the joystick is at a "Y" value of >19 (joystick is pushed all the way up) which directs both motors to have values of +1. It moves backwards when the joystick has a "Y" value of <1 which directs both motors to have values of -1. The rotation of the robot is created by one motor have a +1 value and the other having a -1 value. 
+The robot moves forward when the joystick is at a "Y" value of >19 (the joystick is pushed all the way up) which directs both motors to have values of +1. It moves backward when the joystick has a "Y" value of <1 which directs both motors to have values of -1. The rotation of the robot is created by one motor have a +1 value and the other having a -1 value. 
 
 The joystick at rest is essentially at a graph point of (10,10). Moving it "up" all the way increases the point value to (10,20) / If you move it all the way down it creates a point value of (10,0) and the same for X values. Using this information we coded the joystick/motors to move utilizing said values. 
 
-Here we have the motors moving with example papers wheels.
+Here we have the motors moving with example paper wheels.
 
 <img src="images/ezgif.com-crop.gif" width="200">
 
@@ -66,16 +66,16 @@ The wires shown on the diagram are an accurate estimation of how many we will tr
 <img src="images/lcdscreen.png" width="400">
 
 
-We have decided to use a LoRa board with an extra pico to be able to control the motors wirelessly. We also would like to connect the camera/screen wirelessly with the boards. We have no LoRa experience and may be difficult to pursue for our purpose. The LoRa boards connect to one another wirelessly with radio signal. If we can accomplish this goal, it would require one Pico on the robot with a LoRa module, and another Pico on the remote controller with another LoRa module. 
+We have decided to use a LoRa board with an extra pico to be able to control the motors wirelessly. We also would like to connect the camera/screen wirelessly with the boards. We have no LoRa experience and may be difficult to pursue our purpose. The LoRa boards connect to one another wirelessly with a radio signal. If we can accomplish this goal, it would require one Pico on the robot with a LoRa module, and another Pico on the remote controller with another LoRa module. 
 
-We have began to write code for the LoRa boards and tried to make them talk to one another. 
+We have begun to write code for the LoRa boards and tried to make them talk to one another. 
 
-We researched the LoRa boards and brainstormed with our mentors in-person on how to move forward in our project. We sat down with them and watched several informative videos regarding bluetooth, hard wiring, and radio connection. After close research, we have realized that we cannot transmit video from one LoRa board to another. However we will still try to see if the LoRa modules are feasable to transmit the signal for the joystick/motors. This would minimize the amount of wires needed in regards to connecting the robot to the controller.
+We researched the LoRa boards and brainstormed with our mentors in person on how to move forward in our project. We sat down with them and watched several informative videos regarding Bluetooth, hard wiring, and radio connection. After close research, we have realized that we cannot transmit video from one LoRa board to another. However, we will still try to see if the LoRa modules are feasible to transmit the signal for the joystick/motors. This would minimize the amount of wires needed in regards to connecting the robot to the controller.
 
 
 # January 
 
-We made a lot of progress in terms of CAD, creating most of what we need for the final robot. Graham has been working hard annd focused on the CAD while I was focused on the code side.
+We made a lot of progress in terms of CAD, creating most of what we needed for the final robot. Graham has been working hard and focused on the CAD while I was focused on researching ahead for tasks such as tackling the camera and LCD screen. 
 
 
 ### Initial Chassis Base - - - - - - - - - - - - - - - - - -Initial Rough Tread Design
@@ -100,7 +100,7 @@ We made a lot of progress in terms of CAD, creating most of what we need for the
 # February 
 We have created the tank treads in onshape, as well as focused on wiring/coding the camera. 
 
-We have started printing treads for the robot and researching the camera/LCD screen. Graham printed the little individual tank treads, and assembled them using pieces of wire which he cut to act as axles. 
+We have started printing treads for the robot and researching the camera/LCD screen. Graham printed the little individual tank treads and assembled them using pieces of wire which he cut to act as axles. 
 
 ### This week the French people were here in Charlottesville. We got minimal work done during this time.
 
@@ -118,7 +118,7 @@ We ordered 50 feet of wire in a cable that splits off into 8 different wires in 
 
 
 ### Graham has started to create the circuit board for the robot 
-
+We are still trying to figure out how many wires we will need exactly for the final design, but for now, we will leave extra space on the circuit board just in case. During this time Malachi is doing research and testing the LCD screen that we purchased online. It is seemingly overcomplicated when it comes to wiring. 
 <img src="images/IMG_5102.jpg" width="300">
 
 ### Circuit board with battery and one of the motors attached to the laser-cut chassis
@@ -155,7 +155,7 @@ After a close inspection of the endoscope, we determined that we could use a few
 After presenting, our robot stopped working. After working with Mr. Miller and the voltmeters, we discovered that the H-bridge for the motors was fried. We determined this by testing the voltage of each part of our project and noticing that the A out / B out pins on the H-bridge were not receiving power. We replaced the H-bridge and it now works, independent of the computer. 
 
 ### Videos of the robot moving back and forth / rotating left/right 
-Video appears grainy due to the frame rate of gifs
+The video appears grainy due to the frame rate and low quality of gifs
 
 <img src="images/IMG_6020-ezgif.com-optimize.gif" width="400"> <img src="images/IMG6021ezgif.com-optimize.gif" width="370">
 
