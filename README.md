@@ -54,6 +54,8 @@ Here we have the motors moving with example papers wheels.
 
 ### Wiring diagram for the joystick 
 
+The wires shown on the diagram are an accurate estimation of how many we will truly need. However, we are not 100% sure of how many the LCD screen will require.
+
 <img src="images/updatedwiringdiagramjoystick.png" width="300">
 
 
@@ -96,6 +98,7 @@ We made a lot of progress in terms of CAD, creating most of what we need for the
 <img src="images/treadassembly.png" width="370"> <img src="images/roughassembly.png" width="450">
 
 # February 
+We have created the tank treads in onshape, as well as focused on wiring/coding the camera. 
 
 We have started printing treads for the robot and researching the camera/LCD screen. Graham printed the little individual tank treads, and assembled them using pieces of wire which he cut to act as axles. 
 
@@ -105,15 +108,11 @@ We have started printing treads for the robot and researching the camera/LCD scr
 
 Our mentors came and we got feedback from several other UVA students as well. One student proposed the idea of Bluetooth, which we took into consideration, but we still did not believe it would be sufficient for our task at hand. We finalized our idea to fully wire the robot. We also got started on wiring and coding the LCD screen and were directed to focus on that before the camera. 
 
-### We ordered 50 feet of wire in a cable that splits off into 8 different wires in order to allow us to use the robot at large distances. 
+### 50-foot wire bundle cable 
+We ordered 50 feet of wire in a cable that splits off into 8 different wires in order to allow us to use the robot at large distances. We hope to split up these wires for the joystick and whatever other needs we may have in the future. In the event we connect something else to this long strand of wire, we can combine power/ground for each part into one wire apiece. 
 
 <img src="images/50ftwire.png" width="400">
 
-We got the LCD screen to turn on with basic code and continued to print treads and wheels for the robot.
-
-We have created the tank treads in onshape, as well as focused on wiring/coding the camera. 
-
-Decided to scrap LoRa and just fully wire the robot. Wires shown on the diagram are an accurate estimation of how many we will truly need. However, we are not 100% sure of how many the LCD screen will require.
 
 # March
 
@@ -123,14 +122,16 @@ Decided to scrap LoRa and just fully wire the robot. Wires shown on the diagram 
 <img src="images/IMG_5102.jpg" width="300">
 
 ### Circuit board with battery and one of the motors attached to the laser-cut chassis
-Motor is screwed into the laser-cut chassis with printed handles
+The motor is screwed into the laser-cut chassis with printed handles
 
 <img src="images/IMG_5103.jpg" width="300">
 
 
 # April
 
-Currently testing a different LCD screen that we found in the lab which acts as a shield on a metro express board, struggling to figure out the code. We have decided to forget about the LCD screen / Camera and complete the project as just a remote-controlled robot. 
+Currently testing a different LCD screen that we found in the lab which acts as a shield on a metro express board, struggling to figure out the code. We got the LCD screen to turn on with basic code and continued to print treads and wheels for the robot. By default, LCD screens are a blank white image. 
+
+We have decided to forget about the LCD screen / Camera and complete the project as just a remote-controlled robot. 
 
 ### Treads are fully printed and work with both motors to move the chassis in either direction and can rotate. 
 
@@ -143,20 +144,20 @@ The robot is fully functional now, minus the camera
 # May
 
 ### Graham's mom luckily found a cheap endoscope in the Amazon return bins
-After this discovery, we are 100% able to have live video feed on the controller, which allows us to use the robot when the pilot cannot see it.
+After this discovery, we are 100% able to have a live video feed on the controller, which allows us to use the robot when the pilot cannot see it. This device turns on to allow us to view an image shown from a 6-foot-long cable. It also features a flashlight which is beneficial for use in dark spaces (such as groundhog tunnels!). 
 
 <img src="images/IMG_5914-ezgif.com-crop.gif" width="400">
 
-After a close inspection of the endoscope, we determined that we could use a few of the remaining wires in the 50-foot cable, and splice some of the endoscope camera wires in order to extend its range. To our surprise, this was a success and the long distance of wire had little effect on video interference. Unfortunately, however, there was one wire too few to connect the camera's flashlight.
+After a close inspection of the endoscope, we determined that we could use a few of the remaining wires in the 50-foot cable, and splice some of the endoscope camera wires in order to extend its range. To our surprise, this was a success and the long distance of wire had little effect on video interference. Unfortunately, however, there was one wire too few to connect the camera's flashlight. We will fix this issue by attaching a simple desk-type "lamp" onto the robot which is small enough to make little impact on the weight. 
 
 
 
 ### Last week of the year
 
-After presenting, out robot stopped working. After working with Mr. Miller and the voltmeters, we discovered that the H-bridge for the motors was fried. We determined this by testing the voltage of each part of our project and noticing that the A out / B out pins on the H-bridge were not recieving power. We replaced the H-bridge and it now works, independent of the computer. 
+After presenting, our robot stopped working. After working with Mr. Miller and the voltmeters, we discovered that the H-bridge for the motors was fried. We determined this by testing the voltage of each part of our project and noticing that the A out / B out pins on the H-bridge were not receiving power. We replaced the H-bridge and it now works, independent of the computer. 
 
 ### Videos of the robot moving back and forth / rotating left/right 
-Video appears grainy due to frame rate of gifs
+Video appears grainy due to the frame rate of gifs
 
 <img src="images/IMG_6020-ezgif.com-optimize.gif" width="400"> <img src="images/IMG6021ezgif.com-optimize.gif" width="370">
 
