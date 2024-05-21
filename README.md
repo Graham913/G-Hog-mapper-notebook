@@ -2,7 +2,7 @@
 
 
 
-# Planning
+## Planning
 
 Our initial idea is to create a remote-controlled robot that can direct live-video feed back to the controller. We want to drive this robot through the groundhog tunnels at CHS and explore the intriquite designs within. We plan to achieve this by controlling motors using a joystick, and some form of screen/camera to see video.  
 
@@ -24,6 +24,7 @@ https://learn.adafruit.com/adafruit-2-8-and-3-2-color-tft-touchscreen-breakout-v
 # November
 
 ### Diagram drawn by Miller for utilizing the high torque motors / H-bridge (DRV8833)
+This diagram shows us how to wire the 2 potential motors we may utilize and it assists us in coding the motors.
 
 <img src="images/MotorDiagram.jpg" width="300">
 
