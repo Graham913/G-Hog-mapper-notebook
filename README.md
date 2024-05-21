@@ -2,6 +2,14 @@
 
 # September
 
+## Issue at hand
+
+Groundhogs have become a massive problem in the outdoor community of CHS. They dig holes in multiple places around the CHS garden which people could step in and hurt themselves. They also eat the vegetation. These matters cause the CHS Garden and Urban Farming classes to be unsafe environments. 
+
+We wish to alleviate these issues and gather more information about the groundhogs by creating a robot to inspect the groundhog tunnels. By doing so, we may learn more about the groundhog activities such as the time that they are active, which could prove useful for attempting to capture and "relocate" the pests in the future.
+
+
+
 ## Planning
 
 Our initial idea is to create a remote-controlled robot that can direct live-video feed back to the controller. We want to drive this robot through the groundhog tunnels at CHS and explore the intriquite designs within. We plan to achieve this by controlling motors using a joystick, and some form of screen/camera to see video.  
@@ -14,11 +22,11 @@ https://learn.adafruit.com/ttl-serial-camera/overview
 
 https://learn.adafruit.com/adafruit-2-8-and-3-2-color-tft-touchscreen-breakout-v2
 
-Sample drawings of our chassis
+Sample drawings of our chassis featuring a central body and tank treads.
 
 <img src="images/ChasisDrawing.PNG" width="300">
 
-## Materials
+## Materials for the chassis
 
 <img src="images/MetalSheet.jpg" width="200"> <img src="images/WoodSheet.jpg" width="200">
 
@@ -26,13 +34,12 @@ Sample drawings of our chassis
 # November
 
 ### Diagram drawn by Miller for utilizing the high torque motors / H-bridge (DRV8833)
-This diagram shows us how to wire the 2 potential motors we may utilize and it assists us in coding the motors.
+This diagram shows us how to wire the 2 potential motors we may utilize and it assists us in coding the motors. Motor "A" will connect its power into AOUT1 and ground into AOUT2. Motor "B" will connect its power into BOUT1 and ground into BOUT2. A 9 volt battery will be used to connect into the power/ground slots on the H bridge. AIN1/AIN2 connect the H bridge to GP pins on the pico for Motor A, and BIN1/BIN2 will do the same for Motor B.
 
 <img src="images/MotorDiagram.jpg" width="300">
 
-### Figured out code to move high-torque motors back and forth. Currently working on a method to move the motors independently of each other and the computer (Joystick, switch, etc.)
-
-Had to workshop the code using other code in order to be able to use the motors to move back and forth / left and right.
+### Figured out code to move high-torque motors back and forth. 
+Currently working on a method to move the motors independently of each other and the computer (Joystick, switch, etc.) We had to workshop the example code we found online using other code in order to be able to use the motors to move back and forth / left and right. We used inspiration from Malachi's old robot arm project with Mariam, where potentiometers were used for stepper motors. 
 
 Here we have the motors moving with example papers wheels.
 
