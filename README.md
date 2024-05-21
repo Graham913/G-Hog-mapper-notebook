@@ -1,6 +1,6 @@
 # G-Hog-mapper-notebook
 
-
+# September
 
 ## Planning
 
@@ -165,3 +165,6 @@ Video appears grainy due to frame rate of gifs
 ### Testing our robot inside at a distance
 
 <img src="images/ezgif.com-optimizefinalinsidetest.gif" width="400">
+
+
+# Final reflection
