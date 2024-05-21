@@ -103,7 +103,7 @@ We have started printing treads for the robot and researching the camera/LCD scr
 
 <img src="images/IMG_5414.JPG" width="400">
 
-Our mentors came and we got feedback from several UVA students and finalized our idea to fully wire the robot. One student proposed the idea of bluetooth, which we will take into consideration moving forward. We also got started on wiring and coding the LCD screen and were directed to focus on that before the camera. 
+Our mentors came and we got feedback from several other UVA students as well. One student proposed the idea of Bluetooth, which we took into consideration, but we still did not believe it would be sufficient for our task at hand. We finalized our idea to fully wire the robot. We also got started on wiring and coding the LCD screen and were directed to focus on that before the camera. 
 
 ### We ordered 50 feet of wire in a cable that splits off into 8 different wires in order to allow us to use the robot at large distances. 
 
