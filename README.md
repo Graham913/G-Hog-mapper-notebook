@@ -63,11 +63,11 @@ Here we have the motors moving with example papers wheels.
 <img src="images/lcdscreen.png" width="400">
 
 
-We have decided to use a LoRa board with an extra pico to be able to control the motors wirelessly. We also would like to connect the camera/screen wirelessly with the boards. We have no LoRa experience and may be difficult to pursue for our purpose
+We have decided to use a LoRa board with an extra pico to be able to control the motors wirelessly. We also would like to connect the camera/screen wirelessly with the boards. We have no LoRa experience and may be difficult to pursue for our purpose. The LoRa boards connect to one another wirelessly with radio signal. If we can accomplish this goal, it would require one Pico on the robot with a LoRa module, and another Pico on the remote controller with another LoRa module. 
 
 We have began to write code for the LoRa boards and tried to make them talk to one another. 
 
-We researched the LoRa boards and brainstormed with our mentors in-person on how to move forward in our project. We have realized that we cannot transmit video from one LoRa board to another, but we will still try to see if they are feasable to transmit the signal for the joystick/motors. 
+We researched the LoRa boards and brainstormed with our mentors in-person on how to move forward in our project. We sat down with them and watched several informative videos regarding bluetooth, hard wiring, and radio connection. After close research, we have realized that we cannot transmit video from one LoRa board to another. However we will still try to see if the LoRa modules are feasable to transmit the signal for the joystick/motors. This would minimize the amount of wires needed in regards to connecting the robot to the controller.
 
 
 # January 
