@@ -154,8 +154,7 @@ Video appears grainy due to frame rate of gifs
 
 ### Final images of our robot put together
 
-<img src="images/0417A749-42C0-4F32-86AB-DDC2BC87EEFB.JPG" width="400"> 
-<img src="images/41C56C78-BC86-44BF-80E6-890C4DBED0A3.JPG" width="400">
-<img src="images/6B119889-926A-4EE0-B02F-B5A751682F0C.jpg" width="400">
-<img src="images/784E048F-CDF8-4A06-A291-AE7E9AC5C36A.JPG" width="400">
-<img src="CC8FB4FE-1D89-40C9-B79D-4D55B785BB4D.jpg" width="400">
+<img src="images/0417A749-42C0-4F32-86AB-DDC2BC87EEFB.JPG" width="400"> <img src="images/6B119889-926A-4EE0-B02F-B5A751682F0C.jpg" width="400">
+<img src="images/784E048F-CDF8-4A06-A291-AE7E9AC5C36A.JPG" width="400"> 
+<img src="images/CC8FB4FE-1D89-40C9-B79D-4D55B785BB4D.jpg" width="200"> <img src="images/41C56C78-BC86-44BF-80E6-890C4DBED0A3.JPG" width="400"> 
+
