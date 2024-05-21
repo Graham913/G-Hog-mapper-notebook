@@ -30,6 +30,7 @@ Sample drawings of our chassis featuring a central body and tank treads.
 
 <img src="images/MetalSheet.jpg" width="200"> <img src="images/WoodSheet.jpg" width="200">
 
+The metal may be more durable but harder to cut and manipulate. And vice versa for the wood. 
 
 # November
 
@@ -72,7 +73,7 @@ We researched the LoRa boards and brainstormed with our mentors in-person on how
 
 # January 
 
-We made a lot of progress in terms of CAD, creating most of what we need for the final robot. 
+We made a lot of progress in terms of CAD, creating most of what we need for the final robot. Graham has been working hard annd focused on the CAD while I was focused on the code side.
 
 
 ### Initial Chassis Base - - - - - - - - - - - - - - - - - -Initial Rough Tread Design
@@ -94,18 +95,15 @@ We made a lot of progress in terms of CAD, creating most of what we need for the
 ### Tread Assembly - - - - - - - - - - - - - - - - -Rough Assembly
 <img src="images/treadassembly.png" width="370"> <img src="images/roughassembly.png" width="450">
 
-
-
-
 # February 
 
-We started printing treads for the robot and researching the camera/LCD screen.
+We have started printing treads for the robot and researching the camera/LCD screen. Graham printed the little individual tank treads, and assembled them using pieces of wire which he cut to act as axles. 
 
 ### This week the French people were here in Charlottesville. We got minimal work done during this time.
 
 <img src="images/IMG_5414.JPG" width="400">
 
-Mentors came this week. We got feedback from several UVA students and finalized our idea to fully wire the robot. We also got started on wiring and coding the LCD screen and were directed to focus on that before the camera. 
+Our mentors came and we got feedback from several UVA students and finalized our idea to fully wire the robot. One student proposed the idea of bluetooth, which we will take into consideration moving forward. We also got started on wiring and coding the LCD screen and were directed to focus on that before the camera. 
 
 ### We ordered 50 feet of wire in a cable that splits off into 8 different wires in order to allow us to use the robot at large distances. 
 
