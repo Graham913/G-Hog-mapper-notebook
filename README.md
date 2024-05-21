@@ -41,6 +41,10 @@ This diagram shows us how to wire the 2 potential motors we may utilize and it a
 ### Figured out code to move high-torque motors back and forth. 
 Currently working on a method to move the motors independently of each other and the computer (Joystick, switch, etc.) We had to workshop the example code we found online using other code in order to be able to use the motors to move back and forth / left and right. We used inspiration from Malachi's old robot arm project with Mariam, where potentiometers were used for stepper motors. 
 
+The robot moves forward when the joystick is at a "Y" value of >19 (joystick is pushed all the way up) which directs both motors to have values of +1. It moves backwards when the joystick has a "Y" value of <1 which directs both motors to have values of -1. The rotation of the robot is created by one motor have a +1 value and the other having a -1 value. 
+
+The joystick at rest is essentially at a graph point of (10,10). Moving it "up" all the way increases the point value to (10,20) / If you move it all the way down it creates a point value of (10,0) and the same for X values. Using this information we coded the joystick/motors to move utilizing said values. 
+
 Here we have the motors moving with example papers wheels.
 
 <img src="images/ezgif.com-crop.gif" width="200">
@@ -49,9 +53,8 @@ Here we have the motors moving with example papers wheels.
 
 ### Wiring diagram for the joystick 
 
-(Motor A is connected to AOUT 1 (power) and AOUT 2 (ground) / Motor B is connected to BOUT 1 (power) and BOUT 2 (ground)
+<img src="images/updatedwiringdiagramjoystick.png" width="300">
 
-<img src="images/wiringdiagramjoystick.png" width="400">
 
 # December
 
@@ -116,9 +119,6 @@ Decided to scrap LoRa and just fully wire the robot. Wires shown on the diagram 
 
 # March
 
-### Updated wiring diagram concerning the joystick control
-
-<img src="images/updatedwiringdiagramjoystick.png" width="300">
 
 ### Graham has started to create the circuit board for the robot 
 
