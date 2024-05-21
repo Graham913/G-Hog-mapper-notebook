@@ -134,7 +134,8 @@ The robot is fully functional now, minus the camera
 
 # May
 
-### Graham's mom luckily found a cheap endoscope in the Amazon return bins, and by this luck, we can now use the robot with video feedback.
+### Graham's mom luckily found a cheap endoscope in the Amazon return bins
+After this discovery, we are 100% able to have live video feed on the controller, which allows us to use the robot when the pilot cannot see it.
 
 <img src="images/IMG_5914-ezgif.com-crop.gif" width="400">
 
@@ -158,3 +159,6 @@ Video appears grainy due to frame rate of gifs
 <img src="images/784E048F-CDF8-4A06-A291-AE7E9AC5C36A.JPG" width="400"> 
 <img src="images/CC8FB4FE-1D89-40C9-B79D-4D55B785BB4D.jpg" width="200"> <img src="images/41C56C78-BC86-44BF-80E6-890C4DBED0A3.JPG" width="400"> 
 
+### Testing our robot inside at a distance
+
+<img src="images/ezgif.com-optimizefinalinsidetest.gif" width="400">
