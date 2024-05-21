@@ -14,6 +14,7 @@ https://learn.adafruit.com/ttl-serial-camera/overview
 
 https://learn.adafruit.com/adafruit-2-8-and-3-2-color-tft-touchscreen-breakout-v2
 
+Sample drawings of our chassis
 <img src="images/ChasisDrawing.PNG" width="300">
 
 ## Materials
