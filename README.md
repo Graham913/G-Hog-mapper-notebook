@@ -113,6 +113,7 @@ Decided to scrap LoRa and just fully wire the robot. Wires shown on the diagram 
 <img src="images/IMG_5102.jpg" width="300">
 
 ### Circuit board with battery and one of the motors attached to the laser-cut chassis
+Motor is screwed into the laser-cut chassis with printed handles
 
 <img src="images/IMG_5103.jpg" width="300">
 
