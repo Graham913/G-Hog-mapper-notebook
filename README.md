@@ -135,6 +135,7 @@ After a close inspection of the endoscope, we determined that we could use a few
 
 <img src="images/ezgif.com-optimize.gif" width="400">
 
+### Last week of the year
 
-
+After presenting, out robot stopped working. After working with Mr. Miller and the voltmeters, we discovered that the H-bridge for the motors was fried. We determined this by testing the voltage of each part of our project and noticing that the A out / B out pins on the H-bridge were not recieving power. We replaced the H-bridge and it now works, independent of the computer. 
 
