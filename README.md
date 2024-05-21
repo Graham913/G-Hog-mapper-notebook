@@ -135,9 +135,7 @@ We have decided to forget about the LCD screen / Camera and complete the project
 
 ### Treads are fully printed and work with both motors to move the chassis in either direction and can rotate. 
 
-The robot is fully functional now, minus the camera
-
-### Video of our robot doing such
+The robot is fully functional now, minus the camera. A video of our robot doing such is below
 
 <img src="images/ezgif.com-optimize.gif" width="400">
 
