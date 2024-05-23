@@ -225,4 +225,4 @@ Our project features a controller consisting of a bundle of wire, a joystick con
 
 -50 ft wire bundle
 
--Duct tape!
+-Duct tape! Astronauts saved their lives on Apollo 13 using duct tape. Who's to say that engineers are above using it? <img src="images/ducttapeapollo.png" width="200">
