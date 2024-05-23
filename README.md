@@ -186,4 +186,43 @@ We also decided to do tests of the robot's distance capabilities. We believe it 
 
 # Final reflection
 
-Our project features a controller consisting of a bundle of wire, a joystick controller, and a screen to see live video feed. The robot which is wired to the controller has a chassis with all of the components attatched such as motors with treads to move the robot and the parts needed to control them. There is a flashlight on the robot which is paired with the snake camera from the endoscope. After a long year, we concluded our project with the ability to maneuver our robot within the groundhog tunnels with live video feed. Originally our goal was to accomplish just that, which we have. However, we did have some shortcomings. Our time management throughout the year was our biggest issue. We had spurs of efficient time use which were typically when a deadline was approaching. During those times such as the very end of the year, we were very efficient and got a lot of work done. The last 2 weeks of the year we made huge strides to finish our project. Another small issue was simplicity. If we had thought ahead to just purchase an endoscope it could have subtracted a month or 2 worth of work. We could have also collaborated more with our mentors, but we did still make good progress with them. It is easy to say we should have done this and that, but we used the knowledge we had and tried to make the smartest decisions for each part of our project. Overall we learned a lot, such as Code/CAD skills, working with a budget, and most importantly, proper time management. 
+Our project features a controller consisting of a bundle of wire, a joystick controller, and a screen to see live video feed. The robot which is wired to the controller has a chassis with all of the components attatched such as motors with treads to move the robot and the parts needed to control them. There is a flashlight on the robot which is paired with the snake camera from the endoscope. To turn on the camera, hold down the power button on the endoscope. Then you may use the joystick to move in whichever direction desired. The light is turned on by the button on the back of it. After a long year, we concluded our project with the ability to maneuver our robot within the groundhog tunnels with live video feed. Originally our goal was to accomplish just that, which we have. However, we did have some shortcomings. Our time management throughout the year was our biggest issue. We had spurs of efficient time use which were typically when a deadline was approaching. During those times such as the very end of the year, we were very efficient and got a lot of work done. The last 2 weeks of the year we made huge strides to finish our project. Another small issue was simplicity. If we had thought ahead to just purchase an endoscope it could have subtracted a month or 2 worth of work. We could have also collaborated more with our mentors, but we did still make good progress with them. It is easy to say we should have done this and that, but we used the knowledge we had and tried to make the smartest decisions for each part of our project. Overall we learned a lot, such as Code/CAD skills, working with a budget, and most importantly, proper time management. 
+
+
+### Bill of lab materials
+
+-Laser cut chassis
+
+-3d printed brackets for motors
+
+-2 motors (one on each side of chassis)
+
+-Laser cut wheels
+
+-3d printed treads / wires used as axles to keep together
+
+-4-40 screws/washers/nuts
+
+-Circuit board
+
+-Raspberry pi pico
+
+-Many wires
+
+-Standoffs
+
+-9v battery and holder
+
+-3v lone battery
+
+-H bridge
+
+-Desk lamp
+
+-Endoscope
+
+-Joystick
+
+-50 ft wire bundle
+
+-Duct tape!
