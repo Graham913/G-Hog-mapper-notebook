@@ -10,7 +10,7 @@ We wish to alleviate these issues and gather more information about the groundho
 
 ## Planning
 
-Our initial idea is to create a remote-controlled robot that can direct live-video feedback to the controller. We want to drive this robot through the groundhog tunnels at CHS and explore the intricate designs within. We plan to achieve this by controlling motors using a joystick, and some form of screen/camera to see video.  
+Our initial idea is to create a remote-controlled robot that can direct live video feedback to the controller. We want to drive this robot through the groundhog tunnels at CHS and explore the intricate designs within. We plan to achieve this by controlling motors using a joystick, and some form of screen/camera to see video.  
 
 Our end goal is to get video inside of the tunnels, but really just create a robot that we can control and will give us a live video feed. Our success will be measured by whether or not we can accomplish this goal.
 
@@ -52,7 +52,7 @@ Here we have the motors moving with example paper wheels.
 
 ### Wiring diagram for the joystick 
 
-The wires shown on the diagram are an accurate estimation of how many we will truly need. However, we are not 100% sure of how many the LCD screen will require.
+The wires shown on the diagram are an accurate estimation of how many we will truly need. However, we are not 100% sure of how many wires the LCD screen will require.
 
 <img src="images/updatedwiringdiagramjoystick.png" width="300">
 
@@ -120,7 +120,7 @@ We are still trying to figure out how many wires we will need exactly for the fi
 <img src="images/IMG_5102.jpg" width="300">
 
 ### Circuit board with battery and one of the motors attached to the laser-cut chassis
-The motor is screwed into the laser-cut chassis with printed handles. The next step is to finish assembling the chasis, including incorporating the other motor on the other side, as well as wiring them to the pico.
+The motor is screwed into the laser-cut chassis with printed handles. The next step is to finish assembling the chassis, including incorporating the other motor on the other side, as well as wiring them to the pico.
 
 <img src="images/IMG_5103.jpg" width="300">
 
@@ -150,15 +150,15 @@ After a close inspection of the endoscope, we determined that we could use a few
 
 ### Updated wiring diagrams
 
-Each lime green star denotes wire that is spliced to be connected to the 50 foot cable of wire. 
+Each lime green star denotes wire that is spliced to be connected to the 50-foot cable of wire. 
 
 <img src="images/copynewupdatedwiringdiagramjoystick.png" width="370"> <img src="images/endoscopewiring.png" width="370">
 
 
-After presenting, our robot stopped working. After working with Mr. Miller and the voltmeters, we discovered that the H-bridge for the motors was fried. We determined this by testing the voltage of each part of our project and noticing that the A out / B out pins on the H-bridge were not receiving power. We replaced the H-bridge and it now works, independent of the computer. 
+After presenting, our robot stopped working. After working with Mr. Miller and the voltmeters, we discovered that the H-bridge for the motors was fried. We determined this by testing the voltage of each part of our project and noticing that the A-out / B-out pins on the H-bridge were not receiving power. We replaced the H-bridge and it now works, independent of the computer. 
 
 ### Videos of the robot moving back and forth / rotating left/right 
-The video appears grainy due to the frame rate and low quality of gifs
+The video appears grainy due to the frame rate and low quality of the gifs
 
 <img src="images/IMG_6020-ezgif.com-optimize.gif" width="400"> <img src="images/IMG6021ezgif.com-optimize.gif" width="370">
 
@@ -175,7 +175,7 @@ The video appears grainy due to the frame rate and low quality of gifs
 
 ### Official testing
 
-We took the robot outside in search of groundhog holes. One of the first ones we found seemed to be big enough to fit the payload, and this footage shows the video feed from us maneuvering the robot inside the tunnel. The first video shows initial movement, and the second one shows a slug we discovered. Obstacles inside the tunnels such as large rocks made it difficult to move throughout the tunnel, but we managed. 
+We took the robot outside in search of groundhog holes. One of the first ones we found seemed to be big enough to fit the payload, and this footage shows the video feed from us maneuvering the robot inside the tunnel. The first video shows the initial movement, and the second one shows a slug we discovered. Obstacles inside the tunnels such as large rocks made it difficult to move throughout the tunnel, but we managed. 
 
 <img src="images/videofofintunnel-ezgif.com-optimize.gif" width="400"> <img src="images/slugvideo-ezgif.com-optimize.gif" width="300">
 
@@ -186,26 +186,26 @@ We also decided to do tests of the robot's distance capabilities. We believe it 
 
 # Final reflection
 
-Our project features a controller consisting of a bundle of wire, a joystick controller, and a screen to see live video feed. The robot which is wired to the controller has a chassis with all of the components attatched such as motors with treads to move the robot and the parts needed to control them. There is a flashlight on the robot which is paired with the snake camera from the endoscope. To turn on the camera, hold down the power button on the endoscope. Then you may use the joystick to move in whichever direction desired. The light is turned on by the button on the back of it. After a long year, we concluded our project with the ability to maneuver our robot within the groundhog tunnels with live video feed. Originally our goal was to accomplish just that, which we have. However, we did have some shortcomings. Our time management throughout the year was our biggest issue. We had spurs of efficient time use which were typically when a deadline was approaching. During those times such as the very end of the year, we were very efficient and got a lot of work done. The last 2 weeks of the year we made huge strides to finish our project. Another small issue was simplicity. If we had thought ahead to just purchase an endoscope it could have subtracted a month or 2 worth of work. We could have also collaborated more with our mentors, but we did still make good progress with them. It is easy to say we should have done this and that, but we used the knowledge we had and tried to make the smartest decisions for each part of our project. Overall we learned a lot, such as Code/CAD skills, working with a budget, and most importantly, proper time management. 
+Our project features a controller consisting of a bundle of wires, a joystick controller, and a screen to see a live video feed. The robot which is wired to the controller has a chassis with all of the components attached such as motors with treads to move the robot and the parts needed to control them. There is a flashlight on the robot which is paired with the snake camera from the endoscope. To turn on the camera, hold down the power button on the endoscope. Then you may use the joystick to move in whichever direction desired. The light is turned on by the button on the back of it. After a long year, we concluded our project with the ability to maneuver our robot within the groundhog tunnels with live video feed. Originally our goal was to accomplish just that, which we have. However, we did have some shortcomings. Our time management throughout the year was our biggest issue. We had spurs of efficient time use which were typically when a deadline was approaching. During those times such as the very end of the year, we were very efficient and got a lot of work done. In the last 2 weeks of the year, we made huge strides to finish our project. Another small issue was simplicity. If we had thought ahead to just purchase an endoscope it could have subtracted a month or 2 worth of work. We could have also collaborated more with our mentors, but we did still make good progress with them. It is easy to say we should have done this and that, but we used the knowledge we had and tried to make the smartest decisions for each part of our project. Overall we learned a lot, such as Code/CAD skills, working with a budget, and most importantly, proper time management. 
 
 
 ### Bill of lab materials
 
--Laser cut chassis
+-Laser-cut chassis
 
 -3d printed brackets for motors
 
--2 motors (one on each side of chassis)
+-2 motors (one on each side of the chassis)
 
 -Laser cut wheels
 
--3d printed treads / wires used as axles to keep together
+-3d printed treads/wires used as axles to keep together
 
 -4-40 screws/washers/nuts
 
 -Circuit board
 
--Raspberry pi pico
+-Raspberry Pi Pico
 
 -Many wires
 
