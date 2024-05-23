@@ -99,7 +99,6 @@ The "Initial Chassis Base" is simply the design for the base of the robot's payl
 <img src="images/treadassembly.png" width="370"> <img src="images/roughassembly.png" width="450">
 
 # February 
-We have created the tank treads in onshape, as well as focused on wiring/coding the camera. 
 
 We have started printing treads for the robot and researching the camera/LCD screen. Graham printed the little individual tank treads and assembled them using pieces of wire which he cut to act as axles. 
 
@@ -113,7 +112,6 @@ Our mentors came and we got feedback from several other UVA students as well. On
 We ordered 50 feet of wire in a cable that splits off into 8 different wires in order to allow us to use the robot at large distances. We hope to split up these wires for the joystick and whatever other needs we may have in the future. In the event we connect something else to this long strand of wire, we can combine power/ground for each part into one wire apiece. 
 
 <img src="images/50ftwire.png" width="400">
-
 
 # March
 
@@ -133,11 +131,9 @@ The motor is screwed into the laser-cut chassis with printed handles. The next s
 
 Currently testing a different LCD screen that we found in the lab which acts as a shield on a metro express board, struggling to figure out the code. We got the LCD screen to turn on with basic code and continued to print treads and wheels for the robot. By default, LCD screens are a blank white image. 
 
-We have decided to forget about the LCD screen / Camera and complete the project as just a remote-controlled robot. 
+### We have decided to forget about the LCD screen / Camera and complete the project as just a remote-controlled robot. 
 
-### Treads are fully printed and work with both motors to move the chassis in either direction and can rotate. 
-
-The robot is fully functional now, minus the camera. A video of our robot doing such is below
+The treads are fully printed and work with both motors to move the chassis in either direction and can rotate. The robot is fully functional now, minus the camera. A video of our robot doing such is below
 
 <img src="images/ezgif.com-optimize.gif" width="400">
 
