@@ -150,6 +150,13 @@ After a close inspection of the endoscope, we determined that we could use a few
 
 ### Last week of the year
 
+### Updated wiring diagrams
+
+Each lime green star denotes wire that is spliced to be connected to the 50 foot cable of wire. 
+
+<img src="images/copynewupdatedwiringdiagramjoystick.png" width="370"> <img src="images/endoscopewiring.png" width="370">
+
+
 After presenting, our robot stopped working. After working with Mr. Miller and the voltmeters, we discovered that the H-bridge for the motors was fried. We determined this by testing the voltage of each part of our project and noticing that the A out / B out pins on the H-bridge were not receiving power. We replaced the H-bridge and it now works, independent of the computer. 
 
 ### Videos of the robot moving back and forth / rotating left/right 
