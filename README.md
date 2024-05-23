@@ -77,6 +77,7 @@ We researched the LoRa boards and brainstormed with our mentors in person on how
 
 We made a lot of progress in terms of CAD, creating most of what we needed for the final robot. Graham has been working hard and focused on the CAD while I was focused on researching ahead for tasks such as tackling the camera and LCD screen. 
 
+The "Initial Chassis Base" is simply the design for the base of the robot's payload. It has holes extruded to allow for screws to hold other parts in that we print. The "Initial Rough Tread Design" is a rough draft of our ideas for the tank treads. The "Singular Tread" is one of the many identical treads we will print and assemble together using pieces of wire as axles in order to act as proper treads. The "Tread Wheel" is one of the 4 identical wheels we will print to surround the motors. The treads will then surround those wheels to move on uneven terrain. The "Bracket" and "Motor Brackets" are used to hold the motors and the fake motors. Each side of the robot will have one real motor and one fake one which essentially acts as an axle. The "Tread Assembly" shows what the result of assembling all of the singular treads will be. The "Rough Assembly" shows what our base will look like with the wheels on either side.
 
 ### Initial Chassis Base - - - - - - - - - - - - - - - - - -Initial Rough Tread Design
 <img src="images/chasis.png" width="400">                                  <img src="images/initial design treads.png" width="400">
