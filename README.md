@@ -171,5 +171,15 @@ The video appears grainy due to the frame rate and low quality of gifs
 
 <img src="images/ezgif.com-optimizefinalinsidetest.gif" width="400">
 
+### Official testing
+
+We took the robot outside in search of groundhog holes. One of the first ones we found seemed to be big enough to fit the payload, and this footage shows the video feed from us maneuvering the robot inside the tunnel. The first video shows initial movement, and the second one shows a slug we discovered. Obstacles inside the tunnels such as large rocks made it difficult to move throughout the tunnel, but we managed. 
+
+<img src="images/videofofintunnel-ezgif.com-optimize.gif" width="400"> <img src="images/slugvideo-ezgif.com-optimize.gif" width="300">
+
+We also decided to do tests of the robot's distance capabilities. We believe it could go much further, however, it is just slow to move with so much wire sent out. The first video shows the robot going out around 20-25 feet. The second video shows the live video feed at said distance. 
+
+<img src="images/distancetest-ezgif.com-optimize.gif" width="300"> <img src="images/cameratest-ezgif.com-optimize.gif" width="400">
+
 
 # Final reflection
