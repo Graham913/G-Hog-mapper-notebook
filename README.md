@@ -119,10 +119,11 @@ We ordered 50 feet of wire in a cable that splits off into 8 different wires in 
 
 ### Graham has started to create the circuit board for the robot 
 We are still trying to figure out how many wires we will need exactly for the final design, but for now, we will leave extra space on the circuit board just in case. During this time Malachi is doing research and testing the LCD screen that we purchased online. It is seemingly overcomplicated when it comes to wiring. 
+
 <img src="images/IMG_5102.jpg" width="300">
 
 ### Circuit board with battery and one of the motors attached to the laser-cut chassis
-The motor is screwed into the laser-cut chassis with printed handles
+The motor is screwed into the laser-cut chassis with printed handles. The next step is to finish assembling the chasis, including incorporating the other motor on the other side, as well as wiring them to the pico.
 
 <img src="images/IMG_5103.jpg" width="300">
 
